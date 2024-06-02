@@ -3,6 +3,8 @@
 
 int main()
 {
+  //declaration
+  // int arr[5] = {1, 2, 3, 4, 69};
   int arr[5];
   for(int i = 0; i < 5; i++)
   {
