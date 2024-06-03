@@ -4,9 +4,16 @@
 int main()
 {
   //declaration
-  int arr1[5];
+  int arr0[5];
   
+  //print garbage values
+  for(int a = 0; a < 5; a++)
+  {
+    printf("%d\n", arr0[a]);
+  }
+
   //print base address
+  int arr1[5];
   for(int i = 0; i < 5; i++)
   {
     printf("%d\n", &arr1[i]);
@@ -30,4 +37,6 @@ int main()
   {
     printf("%d\n", arr3[l]);
   }
+
+  
 }
