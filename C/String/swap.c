@@ -11,5 +11,6 @@ int main()
   a = b;
   b = temp;
 
+  // printf("a: %d \n b: %d", a, b);
   printf("a: %d \n b: %d", a, b);
 }
